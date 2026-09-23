@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@theme {
+  --color-maroon-50: #fdf2f4;
+  --color-maroon-100: #fbe6e9;
+  --color-maroon-200: #f7ced5;
+  --color-maroon-300: #f0a7b4;
+  --color-maroon-400: #e4768b;
+  --color-maroon-500: #d24b65;
+  --color-maroon-600: #b9334e;
+  --color-maroon-700: #7a1526;
+  --color-maroon-800: #681524;
+  --color-maroon-900: #581522;
+  --color-maroon-950: #33070f;
+
+  --color-burgundy-50: #fdf2f4;
+  --color-burgundy-100: #fbe6e9;
+  --color-burgundy-200: #f7ced5;
+  --color-burgundy-300: #f0a7b4;
+  --color-burgundy-400: #e4768b;
+  --color-burgundy-500: #d24b65;
+  --color-burgundy-600: #b9334e;
+  --color-burgundy-700: #7a1526;
+  --color-burgundy-800: #681524;
+  --color-burgundy-900: #581522;
+  --color-burgundy-950: #33070f;
+
+  --color-charcoal-50: #f8f9fa;
+  --color-charcoal-100: #f1f3f5;
+  --color-charcoal-200: #e9ecef;
+  --color-charcoal-300: #dee2e6;
+  --color-charcoal-400: #ced4da;
+  --color-charcoal-500: #868e96;
+  --color-charcoal-600: #495057;
+  --color-charcoal-700: #343a40;
+  --color-charcoal-800: #212529;
+  --color-charcoal-900: #181b1e;
+  --color-charcoal-950: #0e1012;
+}
+
+@layer base {
+  body {
+    background-color: #f8fafc;
+    color: #181b1e;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  }
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

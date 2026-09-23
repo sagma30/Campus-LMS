@@ -1,0 +1,6 @@
+{
+  "name": "Campus LMS - Modern University Academic & Governance Platform",
+  "description": "Production-grade college Learning Management System featuring role-based portals for Students, Faculty, and Administrators with timetables, statutory attendance tracking, coursework submissions, and academic audit governance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
